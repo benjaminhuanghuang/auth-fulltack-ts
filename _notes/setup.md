@@ -10,3 +10,11 @@
 tsconfig-paths use the config and types in sub-folders like /share
 
 
+
+
+
+## client Setup
+```
+  yarn create next-app --typescript
+```
+config the tsconfig.json to share the types defined in /share

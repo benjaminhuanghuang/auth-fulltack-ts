@@ -19,5 +19,8 @@
     "ts-node-dev": "^1.1.8",
     "tsconfig-paths": "^3.14.1",
     "typescript": "^4.6.3"
+  },
+  "scripts": {
+    "server": "ts-node-dev --project api/tsconfig.json -r tsconfig-pahts/register api/index.ts"
   }
 }
