@@ -7,5 +7,6 @@
   
 ```
 
-tsconfig-paths use the config in sub-folders
+tsconfig-paths use the config and types in sub-folders like /share
+
 
