@@ -17,4 +17,13 @@ tsconfig-paths use the config and types in sub-folders like /share
 ```
   yarn create next-app --typescript
 ```
-config the tsconfig.json to share the types defined in /share
+
+Modify the tsconfig.json to share the types defined in /share
+```
+    "references": [{"path": "../shared"}]
+```
+
+Modify next.config to access the ../share folder in client project
+```
+    externalDir: true
+```
